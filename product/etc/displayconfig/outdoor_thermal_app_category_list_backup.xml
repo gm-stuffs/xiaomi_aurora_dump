@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<display-config>
+    <outdoor_thermal_app_category_list>
+        <outdoor_thermal_app_category>
+            <item>com.tencent.mm</item>
+            <item>com.tencent.mobileqq</item>
+            <item>com.ss.android.ugc.aweme</item>
+            <item>tv.danmaku.bili</item>
+            <item>com.ss.android.ugc.aweme.lite</item>
+            <item>com.smile.gifmaker</item>
+            <item>com.kuaishou.nebula</item>
+            <item>com.tencent.qqlive</item>
+            <item>com.ss.android.article.video</item>
+            <item>com.qiyi.video</item>
+            <item>com.youku.phone</item>
+            <item>com.ss.android.ugc.live</item>
+            <item>com.tencent.qqmusic</item>
+            <item>com.netease.cloudmusic</item>
+            <item>com.kugou.android</item>
+            <item>com.ximalaya.ting.android</item>
+            <item>com.xs.fm</item>
+            <item>com.autonavi.minimap</item>
+            <item>com.baidu.BaiduMap</item>
+            <item>com.sdu.didi.psnger</item>
+            <item>com.tmri.app.main</item>
+            <item>com.MobileTicket</item>
+            <item>com.dragon.read</item>
+            <item>com.kmxs.reader</item>
+            <item>com.eg.android.AlipayGphone</item>
+            <item>com.alibaba.android.rimet</item>
+            <item>com.tencent.wework</item>
+            <item>com.miui.gallery</item>
+            <item>com.miui.home</item>
+            <item>com.android.incallui</item>
+            <item>com.android.contacts</item>
+            <item>com.android.mms</item>
+        </outdoor_thermal_app_category>
+    </outdoor_thermal_app_category_list>
+</display-config>
+

@@ -1,0 +1,19 @@
+{
+  "singleKeyRules": [
+    {
+      "primaryKey": 27,
+      "singlePress": [
+        {
+          "type": "longPress",
+          "action": "long_press_camera_key",
+          "functions": [
+            {
+              "function": "launch_camera",
+              "global": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

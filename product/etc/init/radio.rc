@@ -1,0 +1,18 @@
+#satellite RILD
+on property:persist.radio.ntn_rild_slot=*
+    setprop persist.odm.radio.ntn_rild_slot ${persist.radio.ntn_rild_slot}
+
+#satellite Stack
+on property:persist.radio.ntn_stack_on=*
+    setprop persist.odm.radio.ntn_stack_on ${persist.radio.ntn_stack_on}
+
+#satellite Log
+on property:persist.radio.ntn.log.level=*
+    setprop persist.odm.ntn.log.level ${persist.radio.ntn.log.level}
+
+#cit satellite mode
+on property:persist.miui.cit.satellite_mode=1
+    setprop persist.odm.radio.ntn_stack_on 6
+
+on property:persist.miui.cit.satellite_mode=0
+    setprop persist.odm.radio.ntn_stack_on 4
