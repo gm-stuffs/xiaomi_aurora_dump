@@ -1,0 +1,14 @@
+# missi_phone_cn_only64-user 14 UKQ1.231003.002 V816.0.24.0.UNACNXM release-keys
+- manufacturer: xiaomi
+- platform: pineapple
+- codename: aurora
+- flavor: missi_phone_cn_only64-user
+- release: 14
+- id: UKQ1.231003.002
+- incremental: V816.0.24.0.UNACNXM
+- tags: release-keys
+- fingerprint: Xiaomi/aurora_in/aurora:14/UKQ1.231003.002/V816.0.24.0.UNACNXM:user/release-keys
+- is_ab: true
+- brand: Xiaomi
+- branch: missi_phone_cn_only64-user-14-UKQ1.231003.002-V816.0.24.0.UNACNXM-release-keys
+- repo: xiaomi_aurora_dump
