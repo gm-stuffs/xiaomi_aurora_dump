@@ -1,0 +1,188 @@
+{
+    "ModeList": {
+        "Mode": [
+            {
+                // CameraUser::SDK
+                "CameraUser": 1,
+                // 0x800A, StreamConfigModeMiuiSuperNight
+                "VendorOpMode": 32778,
+                "MialgoOpMode": 32778,
+                "LensFacing": 64,
+                "FeatureMask" : 258,
+                "Signature": "SuperNight",
+                "BufferLimitCnt": 12,
+                "VendorSnapshotBufferQueueSize": 28,
+                "StreamConfig": [
+                    // raw16 stream of ultra wide
+                    {
+                        "roleId": 21,
+                        "ratio": 0.0,
+                        "isPhysicalStream": true,
+                        "format": 32,
+                        "usage": 3,
+                        "dataSpace": 146931712
+                    },
+                    // raw16 stream of wide
+                    {
+                        "roleId": 0,
+                        "ratio": 0.0,
+                        "isPhysicalStream": true,
+                        "format": 32,
+                        "usage": 3,
+                        "dataSpace": 146931712
+                    },
+                    // normal yuv stream of ultra wide
+                    {
+                        "roleId": 21,
+                        "ratio": 0.0,
+                        "isPhysicalStream": true,
+                        "format": 35,
+                        "usage": 3,
+                        "dataSpace": 146931712
+                    },
+                    // normal yuv stream of wide
+                    {
+                        "roleId": 0,
+                        "ratio": 0.0,
+                        "isPhysicalStream": true,
+                        "format": 35,
+                        "usage": 3,
+                        "dataSpace": 146931712
+                    }
+                ]
+            },
+            {
+                // CameraUser::MIUI
+                "CameraUser": 0,
+                // 0x9000, StreamConfigModeAlgoDual
+                "VendorOpMode": 36864,
+                // 0x8002, StreamConfigModeBokeh
+                "MialgoOpMode": 32770,
+                "LensFacing": 64,
+                "Signature": "DualBokeh",
+                "BufferLimitCnt": 6,
+                // Bokeh 12/1, HDRBokeh 12/3, SNBokeh 12/6
+                "VendorSnapshotBufferQueueSize": 17,
+                "FlushWaitTimeMs": 4000,
+                // 0001 0001 0000, 0x110, hdrBokeh/snBokeh
+                "FeatureMask" : 272,
+                "StreamConfig": [
+                    // yuv stream of master
+                    {
+                        // BokehCamSig::masterYuv
+                        "bokehSig": 0,
+                        "ratio": 0.0,
+                        "isPhysicalStream": true,
+                        "format": 35,
+                        "usage": 3,
+                        "dataSpace": 146931712
+                    },
+                    // yuv stream of slave
+                    {
+                        // BokehCamSig::slaveYuv
+                        "bokehSig": 2,
+                        "ratio": 0.0,
+                        "isPhysicalStream": true,
+                        "format": 35,
+                        "usage": 3,
+                        "dataSpace": 146931712
+                    },
+                    // raw16 stream of master for sebokeh
+                    {
+                        // BokehCamSig::masterRaw
+                        "bokehSig": 1,
+                        "ratio": 1.33,
+                        "isPhysicalStream": true,
+                        "format": 32,
+                        "usage": 3,
+                        "dataSpace": 146931712
+                    },
+                    // raw16 stream of slave for mfbokeh
+                    {
+                        // BokehCamSig::slaveRaw
+                        "bokehSig": 3,
+                        "ratio": 1.33,
+                        "isPhysicalStream": true,
+                        "format": 32,
+                        "usage": 3,
+                        "dataSpace": 146931712
+                    }
+                ]
+            },
+            {
+                // CameraUser::MIUI
+                "CameraUser": 0,
+                // 0x9002, StreamConfigModeAlgoDualSAT
+                "VendorOpMode": 36866,
+                // 0x8001, StreamConfigModeSAT
+                "MialgoOpMode": 32769,
+                "LensFacing": 64,
+                "Signature": "Sat",
+                "BufferLimitCnt": 12,
+                "VendorSnapshotBufferQueueSize": 30,
+                "FlushWaitTimeMs": 4000,
+                // mihalMfnr/burst/hdr/sr/hdrsr/rawhdr/sn/
+                // 0x2 0x4 0x10 0x20 0x40 0x80 0x100
+                // 0001 1111 0101, 0x1F5
+                "FeatureMask" : 501,
+                "StreamConfig": [
+                    // raw10 stream of ultra wide for mihal mfnr
+                    {
+                        "roleId": 21,
+                        "ratio": 0.0,
+                        "isPhysicalStream": true,
+                        "format": 37,
+                        "usage": 3,
+                        "dataSpace": 146931712
+                    },
+                    // normal yuv stream of ultra wide
+                    {
+                        "roleId": 21,
+                        "ratio": 0.0,
+                        "isPhysicalStream": true,
+                        "format": 35,
+                        "usage": 3,
+                        "dataSpace": 146931712
+                    },
+                    // normal yuv stream of wide
+                    {
+                        "roleId": 0,
+                        "ratio": 0.0,
+                        "isPhysicalStream": true,
+                        "format": 35,
+                        "usage": 3,
+                        "dataSpace": 146931712
+                    },
+                    // raw16 stream of ultra wide for supernight
+                    {
+                        "roleId": 21,
+                        "ratio": 0.0,
+                        "isPhysicalStream": true,
+                        "format": 32,
+                        "usage": 3,
+                        "dataSpace": 146931712
+                    },
+                    // raw16 stream of wide for supernight
+                    {
+                        "roleId": 0,
+                        "ratio": 0.0,
+                        "isPhysicalStream": true,
+                        "format": 32,
+                        "usage": 3,
+                        "dataSpace": 146931712
+                    },
+                    // raw16 stream for remosiac full size wide
+                    {
+                        "roleId": 0,
+                        "ratio": 0.0,
+                        "isPhysicalStream": true,
+                        "format": 32,
+                        "usage": 3,
+                        "dataSpace": 146931712,
+                        "isRemosaic": true
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "name":"SMotion",
+    "version":"1.0",
+    "product":"aurora",
+
+    "SUPER CHIP": {
+        "MODE":10002,
+        "DEFAULT":true,
+        "APP":[
+                "com.tencent.tmgp.sgame",
+                "com.tencent.tmgp.pubgmhd",
+                "com.mihoyo.genshinimpact",
+                "com.tencent.lolm",
+                "com.miHoYo.ys.mi"
+        ]
+    },
+
+    "SUPER ALGO": {
+        "MODE":10003,
+        "DEFAULT":true,
+        "APP":[
+        ]
+    }
+}
+

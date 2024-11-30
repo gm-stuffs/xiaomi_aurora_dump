@@ -1,0 +1,8 @@
+{
+	"dump_output":1,
+	"hnchipsrv_pid" : 1658,
+	"log_output":1,
+	"voice_output":1,
+	"voice_bypass_snr_threshold_enable":1,
+	"voice_bypass_snr_threshold_value":15
+}

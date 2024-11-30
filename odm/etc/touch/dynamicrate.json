@@ -1,0 +1,8 @@
+{
+    "DynamicRate":{
+         "version":"1.0",
+         "product":"aurora",
+         "DEFAULT":true,
+          "APP":"tv.danmaku.bili,com.dragon.read,com.tencent.qqlive"
+     }
+}

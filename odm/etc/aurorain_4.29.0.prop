@@ -1,0 +1,3 @@
+# only customized property for india
+
+ro.product.name_for_attestation=aurora_in

@@ -1,0 +1,16 @@
+{
+  "//": "Calib parameters",
+
+  "SetRatio": {
+    "uw2w": 1.0,
+    "w2t": 3.2,
+    "t2ut": 5.0,
+    "gamma_zo": 5,
+    "gamma_nzo": 7,
+    "frame_num_fbo": 6,
+    "frame_num_nfbo": 10,
+    "frame_num_zoom": 10,
+    "win_size": 150,
+    "flag_fbo": 1
+  }
+}

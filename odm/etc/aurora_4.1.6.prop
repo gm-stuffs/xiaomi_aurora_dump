@@ -1,0 +1,9 @@
+# only customized property for tiantong
+
+ro.product.odm.name=aurorapro
+ro.product.odm.marketname=Xiaomi 14 Ultra
+ro.product.odm.model=24031PN0DC
+ro.product.odm.cert=24031PN0DC
+ro.product.name_for_attestation=aurorapro
+ro.tiantong=true
+
